@@ -14,11 +14,13 @@ $(document).ready(function(){
 	});
 
 	$('img').click(function() {
-		$('img').replaceWith('<img id="gif" src="img/giphy.gif"><img>');
-	});
+		console.log("hi")
+		$('img').replaceWith('<img id="gif" src="img/giphy.gif"/>');
 
-	$('#gif').click(function() {
-		$('#gif').replaceWith('<img id="img" src="img/gradHat.png"><img>');
+		$('#gif').click(function() {
+			console.log("hi111")
+			$('#gif').replaceWith('<img id="img" src="img/gradHat.png"/>');
+		});
 	});
 
 });
