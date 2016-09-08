@@ -6,29 +6,20 @@ var clock = $('.clock').FlipClock(new Date(2018,5,20).getTime()/1000 - new Date(
 
 
 $(document).ready(function(){
-	$('img').click(function() {
-		$('img').fadeOut("slow");
-		console.log("not replaced");
-		$('img').replaceWith('<img src="img/giphy.gif"><img>');
-		console.log("replaced");
+
+	$( "#img" ).hover(function() {
+		$( this ).css({width:"95%", height:"95%"});
+	},function(){
+		$(this).css({width:"100%",height:"100%"});  
 	});
 
-// 	$('#img').hover(function(){
-// 	$(this).css({width:"110%",height:"110%"});
-// })();
+	$('img').click(function() {
+		$('img').replaceWith('<img id="gif" src="img/giphy.gif"><img>');
+	});
 
-$( "#img" ).hover(function() {
-  $( this ).css({width:"95%", height:"95%"});
-},function(){
-    $(this).css({width:"100%",height:"100%"});  
-});
-
-	// $('#img').hover(function(){
-	// 	$(this).css({width:"110%",height:"110%"});
-	// },function(){
-	// 	$(this).css({width:"100%",height:"100%"});   
-	// })();
-
+	$('#gif').click(function() {
+		$('#gif').replaceWith('<img id="img" src="img/gradHat.png"><img>');
+	});
 
 });
 
