@@ -203,7 +203,8 @@
   top: -1.5em;
   right: -86px;
   color: black;
-  text-shadow: none; }
+  text-shadow: none;
+  display:none; }
 
 .flip-clock-divider.minutes .flip-clock-label {
   right: -88px; }

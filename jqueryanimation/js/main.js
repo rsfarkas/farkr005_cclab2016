@@ -2,13 +2,14 @@
 $(document).ready(function(){
 	$('img').click(function() {
   		$('img').fadeOut("slow");
-  		$('img').replaceWith('<div id="countdown">hayyyy</div>');
+  		 		$('#clock').addClass("clock");
+  		$('img').replaceWith('<div id="clock"></div>');
 	});
 });
 
 
 
-	var clock = $('.clock').FlipClock(3600 * 24 * 3, {
+	var clock = $('.clock').FlipClock(743000 * 24 * 3, {
 		clockFace: 'DailyCounter',
 		countdown: true
 	});
