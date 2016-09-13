@@ -14,11 +14,9 @@ $(document).ready(function(){
 	});
 
 	$('img').click(function() {
-		console.log("hi")
 		$('img').replaceWith('<img id="gif" src="img/giphy.gif"/>');
 
 		$('#gif').click(function() {
-			console.log("hi111")
 			$('#gif').replaceWith('<img id="img" src="img/gradHat.png"/>');
 		});
 	});
