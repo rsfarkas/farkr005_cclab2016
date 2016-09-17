@@ -1,0 +1,47 @@
+html, body {
+	text-align: center;
+	font-family: 'Inconsolata', monospace;
+	background-color:#A2DFD8 !important;
+}
+
+h1{
+	color: #5c6577;
+	font-size:45px;
+	letter-spacing: 1px;
+}
+
+#container{
+	margin-top:40px;
+}
+
+#ipod{
+	max-width:100%;
+}
+
+#container #search{
+	padding: 20px;
+	display: inherit;
+}
+
+#container #search input, button{
+	outline: none;
+	border: 5px solid #6699ff;
+	border-radius:5px;
+	font-size: 28px !important;
+	line-height: 1.2em !important;
+	font-family: 'Inconsolata', monospace !important;
+	padding: 15px 20px !important;
+}
+
+#container #search input{
+	width: 480px;
+	max-width: 100%;
+}
+
+#container #search button{
+	background-color: #e6eeff;
+	color: #6699ff;
+	margin-top:15px;
+}
+
+/*img from http://www.vectorfree.com/apple-ipod*/
