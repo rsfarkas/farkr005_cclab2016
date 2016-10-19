@@ -43,11 +43,13 @@ app.main = (function() {
   $("#menu").click(function(){
       $(".signup").css("display","none");
       $(".menuPage").css("display","block");
+      $(".menuPage").css('min-height', '80vh');
       $("#hero").css("display","none");
     });
 
     $("#signup").click(function(){
       $(".signup").css("display","block");
+      $(".signup").css('min-height', '40vh');
       $(".menuPage").css("display","none");
       $("#hero").css("display","none");
     });

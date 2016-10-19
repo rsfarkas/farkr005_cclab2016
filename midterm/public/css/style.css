@@ -138,6 +138,9 @@ ul#social{
 .mr10{
   margin:10px;
 }
+.mh80{
+	min-height:80vh;
+}
 
 a{
   color: black !important;
@@ -154,10 +157,10 @@ a:focus{
 
 @media only screen and (max-width:807px){
   .signup{
-    margin-top:83px;
+    margin-top:128px;
    } 
   .menuPage{
-    margin-top:40px;
+    margin-top:76px;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -236,4 +239,10 @@ a:focus{
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.6);
   }
+}
+
+@media only screen and (max-width: 600px){
+	#signupForm{
+		margin-top:0px;
+	}
 }

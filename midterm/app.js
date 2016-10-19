@@ -55,7 +55,6 @@ MongoClient.connect(uri, function(err, database){
       console.log('saved to database');
       res.redirect('/')
     });
-
   });
 
 
